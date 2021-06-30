@@ -187,6 +187,10 @@ button:hover {
     background-color: #B45309;
 }
 
+.error {
+    color: red;    
+    margin-bottom: 1rem;
+}
 /************** Footer **************/
 footer {
     padding: 1rem;
