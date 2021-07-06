@@ -1,0 +1,107 @@
+body {
+    background: rgb(212, 209, 209);
+}
+.hero {
+    background: url('../images/hero-background.jpg');
+    background-size: content;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem;
+    border-radius: 1rem;
+}
+.btn {
+    padding: 1rem;
+    background: #EF4444;
+    margin: 1rem;
+    border-radius: .5rem;
+    color: cyan;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 1px 1px 5px black;
+}
+.btn:hover {
+    background: #FCA5A5;
+    color: #2563EB;
+}
+
+
+/************************* Header *************************/
+header {
+    padding: 1rem;
+}
+
+.brand-img {
+    border: 1rem solid black;
+    box-shadow: 10px 10px 20px grey;
+}
+.brand {
+    font-size: 2rem;
+    font-weight: 700;    
+}
+h1 {
+    text-shadow: 1px 1px 2px #000;
+    margin-left: 10rem;
+    font-style: italic;
+   
+}
+.nav-menu a {
+    font-size: 1.5rem;
+    color: #4c8fdd;
+}
+.nav-menu a:hover {
+    font-size: 1.5rem;
+    color: violet;
+    font-weight: 700;
+}
+.nav-menu a:active {    
+    color: violet;
+    font-weight: 700;
+}
+/************************* Main *************************/
+form {
+    width: 500px;
+    margin: 5rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 5px double #EF4444;
+    padding: 2rem;
+}
+.form {
+    background: linear-gradient(45deg, #9CA3AF,#E5E7EB 75%);
+    padding: 5rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    border-left: 5rem solid black;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.error {
+    color: red;
+}
+
+
+input, button {
+    margin: .5rem;
+    border: 2px solid grey;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+button {
+    box-shadow: 1px 1px 5px grey;
+    background: #ec7878;
+}   
+button:hover {
+    box-shadow: 1px 1px 5px rgb(63, 62, 62);
+    background: #e94a4a;
+}
+
+/************************* Footer *************************/
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: grey;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .1rem;
+}
