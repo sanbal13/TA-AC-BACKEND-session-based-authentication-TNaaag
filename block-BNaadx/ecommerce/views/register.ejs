@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <%- include('partials/includes') -%>
+  </head>
+  <body>    
+    <%- include('partials/header') -%>
+    <main class="container">
+      <form action="/users/register" method="post">
+        <h3>Registration Form</h3>
+        <div class="radio">
+          <input type="radio" name="admin" id="admin" value="admin" />
+          <label for="admin">Admin</label>
+          <input type="radio" name="admin" id="normal" value="normal" />
+          <label for="normal">Normal</label>
+        </div>
+        <input
+          type="name"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <input type="number" name="age" id="age" placeholder="Enter your age" />
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone number"
+        />
+        <button type="submit">Register User</button>        
+      </form>
+    </main>
+    <%- include('partials/footer') %>
+  </body>
+</html>
